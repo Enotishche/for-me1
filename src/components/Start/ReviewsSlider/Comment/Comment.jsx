@@ -4,7 +4,7 @@ import sprite from '../../../../images/sprite.svg';
 import { CommentStyled,StarContainerStyled } from "./Comment.styled";
 
 export function Comment(props){
-    const scrollType = props.children.length>240 ? "auto" : "visible"
+    const scrollType = props.children.length>200 ? "auto" : "visible"
     return(
             <CommentStyled>
             <div className="comment-container">
