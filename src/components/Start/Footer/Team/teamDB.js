@@ -6,7 +6,7 @@ export const teams =
         position: "Team-lead",
         git: "https://github.com/STIg89",
         linkedin: "https://www.linkedin.com/in/andriy-samarin/",
-        description: "=))",
+        description: ["GOD OF PROJECT"],
         avatar: require('../../../../images/team/Samaryn.jpg'),
         },
         { 
@@ -15,7 +15,7 @@ export const teams =
         position: "Scrum-master",
         git: "https://github.com/HalynaKilbovych",
         linkedin: "https://www.linkedin.com/in/halyna-kilbovych/",
-        description: "Start Page, 404, AutoLogin",
+        description: ["Start Page","404","AutoLogin"],
         avatar: require('../../../../images/team/Kilbovych.jpg'),
        },
        { 
@@ -24,7 +24,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/Iryna-Gry",
         linkedin: "https://www.linkedin.com/in/iryna-grytsaenko/",
-        description: "Calendar Page",
+        description: ["Calendar Page"],
         avatar: require('../../../../images/team/Grytsaenko.jpg'),
        },
        { 
@@ -33,7 +33,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/VictoriaBil",
         linkedin: "https://www.linkedin.com/in/victoria-bilauchuk-187442154",
-        description: "Register Page, Dark Theme",
+        description: ["Register Page","Dark Theme"],
         avatar: require('../../../../images/team/Bilauchuk.jpg'),
        },
        { 
@@ -42,7 +42,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/atevsl",
         linkedin: "https://www.linkedin.com/in/svitlana-losieva/",
-        description: "Calendar Page, Tasks",
+        description: ["Calendar Page", "Tasks"],
         avatar: require('../../../../images/team/Losieva.jpg'),
        },
        { 
@@ -51,7 +51,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/izaitseva",
         linkedin: "https://www.linkedin.com/in/iryna-zaitseva/",
-        description: "SideBar, Header",
+        description: ["SideBar","Header"],
         avatar: require('../../../../images/team/Zaitseva.jpg'),
        },
        { 
@@ -60,7 +60,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/Kate-Vabishchevich",
         linkedin: "https://www.linkedin.com/in/kateryna-vabishchevich/",
-        description: "LoginPage, Language",
+        description:[ "LoginPage", "Language"],
         avatar: require('../../../../images/team/Vabishchevich.jpg'),
        },
        { 
@@ -69,7 +69,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/Enotishche",
         linkedin: "https://www.linkedin.com/in/alona-panchenko-17477a26b/",
-        description: "Start Page, Reviews, Team section",
+        description: ["Start Page", "Reviews", "Team section"],
         avatar: require('../../../../images/team/Panchenko.jpg'),
        },
        { 
@@ -78,7 +78,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/AlexanderChernomorets",
         linkedin: "https://www.linkedin.com/",
-        description: "Review modals",
+        description:[ "Review modals"],
         avatar: require('../../../../images/team/Chernomorets.jpg'),
        },
        { 
@@ -87,7 +87,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/Lelikboss",
         linkedin: "https://www.linkedin.com/in/alexeyalexeevworkpage/",
-        description: "BACK-END (registration, tasks, swagger)",
+        description: ["BACK-END", "(registration, tasks, swagger)"],
         avatar: require('../../../../images/team/Alexeev.jpg'),
        },
        { 
@@ -96,7 +96,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/Andruha0013",
         linkedin: "https://www.linkedin.com/",
-        description: "BACK-END (login, reviews, avatar)",
+        description: ["BACK-END", "(login, reviews, avatar)"],
         avatar: require('../../../../images/team/Kostenko.jpg'),
        },
        { 
@@ -105,7 +105,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/Karyna-Borysenko",
         linkedin: "https://www.linkedin.com/in/karyna-borysenko/",
-        description: "User Profile",
+        description: ["User Profile"],
         avatar: require('../../../../images/team/Borysenko.jpg'),
        },
        { 
@@ -114,7 +114,7 @@ export const teams =
         position: "Developer",
         git: "https://github.com/ViktorSolomianiy",
         linkedin: "https://www.linkedin.com/in/viktor-solomianiy/",
-        description: "Calendar Page, Modal, Tasks",
+        description: ["Calendar Page", "Modal", "Tasks"],
         avatar: require('../../../../images/team/Solomianiy.jpg'),
        },
     ];

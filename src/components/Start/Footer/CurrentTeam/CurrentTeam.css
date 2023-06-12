@@ -15,149 +15,19 @@
   --duration: 250ms;
 }
 
-  /* mySwiper  swiper-wrapper  swiper-slide swiper__item border__outside  swiper__img */
-      /* swiper__name  swiper__subtitle  swiper__soc-list list  swiper__soc-item  swiper__link  swiper__icon   */
-   /* swiper__text__container swiper__text  swiper-pagination  swiper-button-prev  swiper-button-next */
-
-
-/* 
-
-body.locked {
-  overflow: hidden;
-}
-
-.modal {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.8);
-  top: 0;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.8s ease 0s;
-} */
-/* 
-.modal.active {
-  opacity: 1;
-  visibility: visible;
-  z-index: 2;
-}
-
-
-.modal.active .footer-modal__body{
-transform: translate(0px, 0px);
-opacity: 1;
-} */
-/* 
-// ---------Розміщення модалки на сторінці---------- */
-/* 
-.footer-modal__container {
-
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 30px 10px;
-} */
-/* 
-// ------------------Тіло модалки---------------------- */
-/* 
-.footer-modal__body {  
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 280px;
-  height: 580px;
-
-  padding: 0;
-  margin: 0;
-  border-radius: 5px;
-  background-color: var(--modal-movie-bgc);
-  overflow: hidden;
-
-
-  transition: all 0.8s ease 0s;
-  opacity: 0;
-  transform: translate(0px, -100%);
-   @include mobile {
-}
-
-   @include tablet {
-}
-
-   @include pc {
-  width: 900px;
-  height: 600px;
-}
-} */
-/* 
-// ------------- Кнопка закриття модалки ------------ */
-/* 
-.footer-modal__button-close {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: transparent;
-  color: var(--black-text-color);
-  stroke: currentColor;
-  fill: currentColor;
-  border-color: transparent;
-  transition: color var(--duration) var(--cubic);
-  padding: 0;
-  cursor: pointer;
-} */
-/* 
-// Контент в середені кнопки закриття модалки */
-/* 
-.footer-modal__icon:hover,
-.footer-modal__icon:focus {
-  color: var(--accent-text-color);
-}
-.footer-modal__team {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.3em;
-
-  color: var(--accent-text-color);
-  text-align: left;
-} */
-/* 
-// Cтилі для слайдеру------------------------------------------ */
-
 .mySwiper {
 width: 280px;
 height: 600px;
 }
 .footer-modal__body {
 padding: 40px;
-}
-/* 
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-   Center slide text vertically 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
+} 
+           
+/* рисуем саму карточку */
 .swiper__item {
-  
-width: 280px;
-padding: 35px;
+
+padding: 30px;
+height: 75%;
 background: linear-gradient(180deg, rgb(247, 246, 244) 0%, var(--accentBG) 100%);
 border-radius: 50px;
 margin-top: 10px;
@@ -179,9 +49,6 @@ span.swiper-pagination-bullet {
 background-color: lime;
 /* background-color: var(--accentBG); */
 }
-/* 
-// Стилі для карточки студента--------------------------------------------------
- */
 
 .border__outside {
 padding: 10px;
@@ -265,12 +132,6 @@ transition: background-color 250ms var(--cubic);
 }
 }
 
-.App-link {
-  color: lime;
-  cursor: pointer;
-}
-
-
 .swiper__icon {
 fill:var(--accentBG);
 transition: fill 250ms var(--cubic);
@@ -297,4 +158,4 @@ line-height: 1em;
 text-align: center;
 color: var(--white-text-color);
 
-}
+} 

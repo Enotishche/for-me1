@@ -9,7 +9,7 @@ export default function Footer()
   const [modalActive, setModalActive] = useState(false);
 return(
     <footer className={styles.footer}>
-        <div className={styles.container}>
+        <div className={styles.footer__container}>
             <p className={styles.footer__text}>
             {'с 2023 | All Rights Reserved | Developed with '} 
             <svg width="14" height="13">
