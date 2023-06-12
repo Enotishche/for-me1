@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/for-me1/static/css/main.ec6bc965.css",
-    "main.js": "/for-me1/static/js/main.cb9dceaf.js",
-    "static/css/822.4e42a2a0.chunk.css": "/for-me1/static/css/822.4e42a2a0.chunk.css",
-    "static/js/822.b9ae98e7.chunk.js": "/for-me1/static/js/822.b9ae98e7.chunk.js",
+    "main.css": "/for-me1/static/css/main.057b08ba.css",
+    "main.js": "/for-me1/static/js/main.e5cc6a6e.js",
+    "static/css/822.136046af.chunk.css": "/for-me1/static/css/822.136046af.chunk.css",
+    "static/js/822.255a04aa.chunk.js": "/for-me1/static/js/822.255a04aa.chunk.js",
     "static/js/735.85bbacba.chunk.js": "/for-me1/static/js/735.85bbacba.chunk.js",
     "static/js/978.f5fe9407.chunk.js": "/for-me1/static/js/978.f5fe9407.chunk.js",
     "static/js/87.ca0ecc57.chunk.js": "/for-me1/static/js/87.ca0ecc57.chunk.js",
@@ -62,7 +62,7 @@
     "static/media/Solomianiy.jpg": "/for-me1/static/media/Solomianiy.f506c18633c4464dd575.jpg",
     "static/media/goose-register.png": "/for-me1/static/media/goose-register.423b362919999790dd1f.png",
     "static/media/Samaryn.jpg": "/for-me1/static/media/Samaryn.8138951366b57a31b333.jpg",
-    "static/media/sprite.svg": "/for-me1/static/media/sprite.d43f86fa87dd94130ef977bbc52ab8d2.svg",
+    "static/media/sprite.svg": "/for-me1/static/media/sprite.d3a2896f352935bf79609401d98b065c.svg",
     "static/media/CoolveticaRg-Italic.woff2": "/for-me1/static/media/CoolveticaRg-Italic.354b20eb1b8d25af62a1.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/for-me1/static/media/CoolveticaRg-Regular.3829e81cd606bef6e1e9.woff2",
     "static/media/GooseLogo@2x.png": "/for-me1/static/media/GooseLogo@2x.3c0470b19aa18aaef0d8.png",
@@ -71,10 +71,10 @@
     "static/media/goose-login.png": "/for-me1/static/media/goose-login.2db418b6ba73c6033221.png",
     "index.html": "/for-me1/index.html",
     "static/media/getFetch.cjs": "/for-me1/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.ec6bc965.css.map": "/for-me1/static/css/main.ec6bc965.css.map",
-    "main.cb9dceaf.js.map": "/for-me1/static/js/main.cb9dceaf.js.map",
-    "822.4e42a2a0.chunk.css.map": "/for-me1/static/css/822.4e42a2a0.chunk.css.map",
-    "822.b9ae98e7.chunk.js.map": "/for-me1/static/js/822.b9ae98e7.chunk.js.map",
+    "main.057b08ba.css.map": "/for-me1/static/css/main.057b08ba.css.map",
+    "main.e5cc6a6e.js.map": "/for-me1/static/js/main.e5cc6a6e.js.map",
+    "822.136046af.chunk.css.map": "/for-me1/static/css/822.136046af.chunk.css.map",
+    "822.255a04aa.chunk.js.map": "/for-me1/static/js/822.255a04aa.chunk.js.map",
     "735.85bbacba.chunk.js.map": "/for-me1/static/js/735.85bbacba.chunk.js.map",
     "978.f5fe9407.chunk.js.map": "/for-me1/static/js/978.f5fe9407.chunk.js.map",
     "87.ca0ecc57.chunk.js.map": "/for-me1/static/js/87.ca0ecc57.chunk.js.map",
@@ -85,7 +85,7 @@
     "44.661f4e03.chunk.js.map": "/for-me1/static/js/44.661f4e03.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec6bc965.css",
-    "static/js/main.cb9dceaf.js"
+    "static/css/main.057b08ba.css",
+    "static/js/main.e5cc6a6e.js"
   ]
 }
