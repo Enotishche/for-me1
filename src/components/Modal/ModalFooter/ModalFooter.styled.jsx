@@ -17,7 +17,6 @@ export const Overlay = styled.div`
 `;
 
 export const ModalStyled = styled.div`
-  
   position: relative;
   padding: 40px 16px;
   border: 1px solid var(--sidebar-background-color);
@@ -29,6 +28,7 @@ export const ModalStyled = styled.div`
     width: 80vw;
     padding: 40px 28px;
     margin: 0;
+    background-color: var(--team-background-color);
   }
 `;
 
@@ -39,10 +39,10 @@ export const CloseIcon = styled.svg`
   top: 14px;
   right: 14px;
   transition: fill 250ms;
-  fill: var(--primary-text-color);
+  fill: var(--primary-background-color);
 
   &:hover,
   &:focus {
-    fill: var(--accent-background-color);
+    fill: var(--accent-heart);
   }
 `;

@@ -1,50 +1,72 @@
-import React from "react";
+import React from 'react';
 import { nanoid } from 'nanoid';
 import sprite from '../../../../images/sprite.svg';
-import "./CurrentTeam.css";
+import './CurrentTeam.css';
 
-const CurrentTeam = ({name,surName,position,git,linkedin,description,avatar}) =>{
+const CurrentTeam = ({
+  name,
+  surName,
+  position,
+  git,
+  linkedin,
+  description,
+  avatar,
+}) => {
   const keyId = nanoid();
 
   return (
     <div className="mySwiper">
       <div className="swiper-wrapper ">
-                {/* swiper-slide */}
+        {/* swiper-slide */}
         <div key={keyId} className=" swiper__item">
-            <div className="border__outside">
-              <div className="swiper__img">
-                  <img src={avatar} alt={surName} width={120} height={120}/>
-              </div>
+          <div className="border__outside">
+            <div className="swiper__img">
+              <img src={avatar} alt={surName} width={120} height={120} />
             </div>
+          </div>
 
-            <p className="swiper__name">{name} {surName}</p>
-            <h3 className="swiper__subtitle">{position}</h3>
-            
-            <ul className="swiper__soc-list list">
+          <p className="swiper__name">
+            {name} {surName}
+          </p>
+          <h3 className="swiper__subtitle">{position}</h3>
 
-              <li key={keyId+1} className="swiper__soc-item">
-                <a href={git} target="_blank" rel="noopener noreferrer" className="swiper__link">
-                  <svg className="swiper__icon" width={30} height={30}>
-                      <use href={sprite+'#icon-github'} />
-                  </svg>
-                </a>
-              </li>
-              <li key={keyId+2} className="swiper__soc-item">
-                <a href={linkedin} target="_blank" rel="noreferrer" className="swiper__link">
-                  <svg className="swiper__icon" width={30} height={30}>
-                      <use href={sprite+'#icon-linkedin'} />
-                  </svg>
-                </a>
-              </li>
+          <ul className="swiper__soc-list list">
+            <li key={keyId + 1} className="swiper__soc-item">
+              <a
+                href={git}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="swiper__link"
+              >
+                <svg className="swiper__icon" width={30} height={30}>
+                  <use href={sprite + '#icon-github'} />
+                </svg>
+              </a>
+            </li>
+            <li key={keyId + 2} className="swiper__soc-item">
+              <a
+                href={linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="swiper__link"
+              >
+                <svg className="swiper__icon" width={30} height={30}>
+                  <use href={sprite + '#icon-linkedin'} />
+                </svg>
+              </a>
+            </li>
+          </ul>
 
+          <div className="swiper__text__container">
+            <ul className="swiper__text">
+              {description.map((element, index) => (
+                <li key={keyId + index}>{element}</li>
+              ))}
             </ul>
-           
-            <div className="swiper__text__container">
-              <p className="swiper__text">{description}</p>
-            </div>
+          </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 export default CurrentTeam;
