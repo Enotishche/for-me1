@@ -40,12 +40,7 @@ const CurrentTeam = ({name,surName,position,git,linkedin,description,avatar}) =>
             </ul>
            
             <div className="swiper__text__container">
-                 <ul className="swiper__text">
-                   {description.map( (element, index) => 
-                      <li key={keyId+index}>{element}
-                      </li>
-                    )}
-                 </ul>
+              <p className="swiper__text">{description}</p>
             </div>
         </div>
       </div>

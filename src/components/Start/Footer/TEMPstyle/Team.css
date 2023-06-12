@@ -1,0 +1,79 @@
+:root {
+    --black-text-color: #000000;
+    --white-text-color: #ffffff;
+    --light-text-color: #8c8c8c;
+    --dark-text-color: #3E85F3;
+    --accent-text-color: #ff6b08;
+    --mainBGL: #e5e5e5;
+    --lightBG: #f7f7f7;
+    --accentBG: #ff6b01;
+    --modal-overlay: rgba(0, 0, 0, 0.25);
+    --modal-movie-bgc: #ffffff;
+    --Gap16: 16px;
+    --Gap20: 20px;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+    --duration: 250ms;}
+  
+  
+  .footer-modal__container {
+    border: 2px red solid;
+    
+    /* width: 1000px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px 5px 10px;
+  }
+    
+  .footer-modal__team {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+  
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3em;
+  
+    color: var(--accent-text-color);
+    text-align: left;
+  }
+  
+  .footer-modal__button-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: var(--black-text-color);
+    stroke: currentColor;
+    fill: currentColor;
+    border-color: transparent;
+    transition: color var(--duration) var(--cubic);
+    padding: 0;
+    cursor: pointer;
+  }
+    
+    .footer-modal__icon:hover,
+    .footer-modal__icon:focus {
+      color: var(--accent-text-color);
+    }
+    
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
