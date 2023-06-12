@@ -7,6 +7,7 @@
   --primary-background-color: #ffffff;
   --secondary-background-color: #f7f6f9;
   --sidebar-background-color: #ffffff;
+  --team-background-color: rgb(29, 28, 80);
   --accent-background-color: #3e85f3;
   --active-item-sidebar-background: #e3f3ff;
   --hover-active-item-sidebar-background: #e3f3ff;
@@ -90,6 +91,9 @@
 
   /* icon time input */
   --icon-color-time-input: invert(0);
+
+  /* footer */
+  --accent-heart: #ff6b01;
 }
 
 [data-theme='dark'] {

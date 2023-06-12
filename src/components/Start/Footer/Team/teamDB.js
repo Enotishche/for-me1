@@ -6,7 +6,7 @@ export const teams =
         position: "Team-lead",
         git: "https://github.com/STIg89",
         linkedin: "https://www.linkedin.com/in/andriy-samarin/",
-        description: ["GOD OF PROJECT"],
+        description: ["GOD OF PROJECT", "2023"],
         avatar: require('../../../../images/team/Samaryn.jpg'),
         },
         { 
