@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Overlay = styled.div`
-  /* opacity: 0; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,27 +11,27 @@ export const Overlay = styled.div`
   height: 100%;
   background-color: var(--ovarlay-background-color);
   z-index: 1200;
-
   transition: opacity 0.3s ease, visibility 0.3s ease;
 `;
 
 export const ModalStyled = styled.div`
   position: relative;
-  padding: 40px 16px;
-  border: 1px solid var(--sidebar-background-color);
   box-shadow: 0px 4px 16px rgba(17, 17, 17, 0.1);
+  outline: 30px solid var(--accent-background-color);
   border-radius: 8px;
-  background-color: var(--sidebar-background-color);
 
+ @media screen and (min-width: 50px) {
+  width: 280px; 
+  margin: 0 auto;
+}
   @media screen and (min-width: 768px) {
-    width: 80vw;
-    padding: 40px 28px;
-    margin: 0;
-    background-color: var(--accent-background-color);
+  width: 80vw;
+  margin: 0 auto;
   }
 `;
 
 export const CloseIcon = styled.svg`
+
   position: absolute;
   width: 14px;
   height: 14px;
