@@ -28,7 +28,7 @@ export const ModalStyled = styled.div`
     width: 80vw;
     padding: 40px 28px;
     margin: 0;
-    background-color: var(--team-background-color);
+    background-color: var(--accent-background-color);
   }
 `;
 

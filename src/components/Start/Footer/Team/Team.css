@@ -42,8 +42,10 @@
 .footer-modal__container {
   border: 2px transparent solid;
   border-radius: 10px;
-  background-color: var(--team-background-color);
+  /* background-color: var(--team-background-color); */
   /* width: 80vw; */
+  /* background-color: var(--primary-background-color); */
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;

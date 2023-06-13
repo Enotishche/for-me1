@@ -18,11 +18,12 @@
   padding: 30px;
 
   height: 75%;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgb(247, 246, 244) 0%,
     var(--accent-span-text-color) 100%
-  );
+  ); */
+  background-color: var(--accent-background-color);
   border-radius: 50px;
   margin-top: 10px;
 }
@@ -46,9 +47,9 @@ span.swiper-pagination-bullet {
   padding: 10px;
   margin: 0 auto;
   width: 150px;
-  border-radius: 78px;
+  /* border-radius: 78px;
   border-top: 3px solid ar(--accent-heart);
-  border-left: 3px solid var(--accent-heart);
+  border-left: 3px solid var(--accent-heart); */
   margin-bottom: 15px;
 }
 
@@ -58,8 +59,8 @@ span.swiper-pagination-bullet {
   align-items: center;
 
   padding: 5px;
-  border-radius: 78px;
-  border: 2px solid var(--team-background-color);
+  /* border-radius: 78px;
+  border: 2px solid var(--team-background-color); */
 }
 
 .swiper__img img {
@@ -110,7 +111,7 @@ span.swiper-pagination-bullet {
   width: 44px;
 
   border-radius: 50%;
-  background: var(--white-text-color);
+  background: var(--primary-background-color);
 
   transition: background-color 250ms var(--cubic);
   &:hover,
@@ -120,12 +121,13 @@ span.swiper-pagination-bullet {
 }
 
 .swiper__icon {
-  fill: var(--accentBG);
+  /* fill: var(--accent-heart); */
+  fill: black;
   transition: fill 250ms var(--cubic);
 
   &:hover,
   &:focus {
-    fill: var(--white-text-color);
+    fill: var(--team-background-color);
   }
 }
 .swiper__text__container {
@@ -136,7 +138,7 @@ span.swiper-pagination-bullet {
   margin-top: 10px;
 }
 .swiper__text {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 18px;
   line-height: 1em;
 
