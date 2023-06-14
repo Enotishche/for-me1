@@ -55,7 +55,7 @@ margin-bottom: 13px;
     width:100%;
     border-radius: 50%;
     display: block;
-    height: auto;
+    height: 100%;
 }
 & .comment-container{
     display: flex;

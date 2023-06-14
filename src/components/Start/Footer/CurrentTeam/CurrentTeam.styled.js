@@ -1,4 +1,6 @@
-.mySwiper {
+import styled from 'styled-components';
+
+export const CurrentTeamContainer = styled.div`
   width: 280px;
   height: 600px;
   padding-top: 15px;
@@ -7,13 +9,9 @@
     height: 583px;
     /* padding-left: 7px; */
   }
-}
-.footer-modal__body {
-  /* padding: 40px; */
-}
+`;
 
-/* рисуем саму карточку */
-.swiper__item {
+export const CurrentTeamItem = styled.div`
   height: 80%;
   width: 250px;
   padding: 5px;
@@ -30,59 +28,30 @@
     width: 260px;
     /* padding-left: 7px; */
   }
-}
+`;
 
-div.swiper-button-prev::after,
-div.swiper-button-next::after {
-  font-size: 25px;
-}
-div.swiper-button-prev,
-div.swiper-button-next {
-  color: var(--hover-active-item-sidebar-background);
-  transition: color var(--animation);
-}
-
-div.swiper-button-prev:hover,
-div.swiper-button-next:hover,
-div.swiper-button-prev:focus,
-div.swiper-button-next:focus {
-  color: var(--primary-text-color);
-}
-
-div.swiper-button-prev {
-  padding-top: 4px;
-}
-.swiper-pagination {
-  bottom: 0;
-}
-span.swiper-pagination-bullet {
-  background-color: var(--hover-active-item-sidebar-background);
-}
-
-.border__outside {
+export const BorderOutside = styled.div`
   padding: 10px;
   margin: 0 auto;
   width: 130px;
-
   margin-bottom: 10px;
-}
+`;
 
-.swiper__img {
+export const SwiperImg = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 5px;
-}
+`;
 
-.swiper__img img {
+export const TeamImage = styled.img`
   width: 115px;
   height: 115px;
   border-radius: 65px;
   box-sizing: border-box;
-}
+`;
 
-.swiper__name {
+export const TeamName = styled.p`
   font-weight: 700;
   font-size: 24px;
   line-height: 1.3em;
@@ -92,44 +61,46 @@ span.swiper-pagination-bullet {
   margin-bottom: 10px;
   text-align: center;
   color: var(--primary-background-color);
-}
+`;
 
-.swiper__subtitle {
+export const TeamSubtitle = styled.h3`
   font-weight: 600;
   font-size: 22px;
   line-height: 1em;
   text-align: center;
   color: var(--accent-background-color);
-}
+`;
 
-.swiper__soc-list {
+export const SocList = styled.ul`
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-top: 10px;
-  /* list-style: ''; */
-}
+`;
 
-.swiper__link {
+export const SocItem = styled.li`
   display: flex;
   align-items: center;
   justify-content: center;
-
   height: 44px;
   width: 44px;
-
   border-radius: 50%;
   background: var(--primary-background-color);
-
   transition: background-color var(--animation);
 
   &:hover,
   &:focus {
     background-color: var(--primary-text-color);
   }
-}
+`;
 
-.swiper__icon {
+export const SocLink = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const SocIcon = styled.svg`
   fill: var(--primary-text-color);
   transition: fill var(--animation);
 
@@ -137,20 +108,19 @@ span.swiper-pagination-bullet {
   &:focus {
     fill: var(--primary-background-color);
   }
-}
-.swiper__text__container {
+`;
+
+export const TextContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-top: 10px;
-}
-.swiper__text {
+`;
+
+export const TeamText = styled.ul`
   font-weight: 600;
   font-size: 18px;
   line-height: 1em;
-
   text-align: center;
-
   color: var(--team-background-color);
-}
+`;

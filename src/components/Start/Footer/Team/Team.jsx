@@ -1,24 +1,24 @@
 import React from 'react';
-import ModalFooter from 'components/Modal/ModalFooter/ModalFooter';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import required modules
 import { EffectCoverflow, Pagination, Navigation, FreeMode } from 'swiper';
 
-import CurrentTeam from '../CurrentTeam/CurrentTeam';
 import { teams } from './teamDB';
+import ModalFooter from 'components/Modal/ModalFooter/ModalFooter';
+import CurrentTeam from '../CurrentTeam/CurrentTeam';
+import { FooterModalContainer, FooterModalTeam} from './Team.styled';
+
 
 import 'swiper/css';
 import 'swiper/css/effect-flip';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import './Team.css';
+
 
 const Team = ({ onCloseModal }) => {
   return (
     <ModalFooter onCloseModal={onCloseModal}>
-      <div className="footer-modal__container">
-        <h3 className="footer-modal__team">S&amp;M Coders</h3>
+      <FooterModalContainer>
+        <FooterModalTeam>S&amp;M Coders</FooterModalTeam>
         <Swiper
           effect={'coverflow'}
           breakpoints={{
@@ -45,7 +45,7 @@ const Team = ({ onCloseModal }) => {
               index
             ) => (
               <SwiperSlide key={index}>
-                <CurrentTeam
+                    <CurrentTeam
                   name={name}
                   surName={surName}
                   position={position}
@@ -58,7 +58,7 @@ const Team = ({ onCloseModal }) => {
             )
           )}
         </Swiper>
-      </div>
+      </FooterModalContainer>
     </ModalFooter>
   );
 };
