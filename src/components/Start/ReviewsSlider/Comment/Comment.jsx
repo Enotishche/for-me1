@@ -7,17 +7,18 @@ import Stack from '@mui/material/Stack';
 
 export function Comment(props){
     const scrollType = props.children.length>200 ? "auto" : "visible"
+    const LetterAvatar = props.name.indexOf(' ') !== -1 
+        ?` ${props.name.split(' ').pop()[0].toUpperCase()} ${props.name[0].toUpperCase()} `
+        : ` ${props.name[0].toUpperCase()} `;
+
     return(
             <CommentStyled>
             <div className="comment-container">
             <div className="comment-box">
-                {props.src  ? <img  src={props.src} 
-                              alt={`  ${props.name[0].toUpperCase()} ${props.name.indexOf(' ') !== -1 ? props.name.split(' ').pop()[0].toUpperCase(): ''}`}/>
+                {props.src  ? <img  src={props.src} alt={LetterAvatar}/>
                             : <Stack>
-                                <Avatar sx={{ bgcolor:   '#3e85f3' }}>
-                                  {`${props.name[0].toUpperCase()} ${props.name.indexOf(' ') !== -1 ? props.name.split(' ').pop()[0].toUpperCase(): ''}`}
-                                </Avatar>
-                               </Stack>
+                                <Avatar sx={{ bgcolor:'#3e85f3'}}> {LetterAvatar} </Avatar>
+                              </Stack>
                   }
             </div>
             <div>
