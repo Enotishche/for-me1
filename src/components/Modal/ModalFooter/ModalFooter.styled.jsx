@@ -20,28 +20,28 @@ export const ModalStyled = styled.div`
   outline: 30px solid var(--accent-background-color);
   border-radius: 8px;
 
- @media screen and (min-width: 50px) {
-  width: 280px; 
-  margin: 0 auto;
-}
+  @media screen and (min-width: 50px) {
+    width: 280px;
+    margin: 0 auto;
+  }
   @media screen and (min-width: 768px) {
-  width: 80vw;
-  margin: 0 auto;
+    width: 80vw;
+    margin: 0 auto;
   }
 `;
 
 export const CloseIcon = styled.svg`
-
   position: absolute;
   width: 14px;
   height: 14px;
   top: 14px;
   right: 14px;
-  transition: fill 250ms;
+  transition: fill var(--animation);
   fill: var(--primary-background-color);
+  cursor: pointer;
 
   &:hover,
   &:focus {
-    fill: var(--accent-heart);
+    fill: var(--accent-span-text-color);
   }
 `;
