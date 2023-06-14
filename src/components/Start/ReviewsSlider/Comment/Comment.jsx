@@ -19,7 +19,7 @@ export function Comment(props){
                             : <Stack>
                                 <Avatar sx={{ bgcolor:'#3e85f3'}}> {LetterAvatar} </Avatar>
                               </Stack>
-                  }
+                }
             </div>
             <div>
                 <h3>{props.name.trim()}</h3>
