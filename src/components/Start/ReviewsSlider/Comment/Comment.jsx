@@ -2,6 +2,8 @@ import React from "react";
 import sprite from '../../../../images/sprite.svg';
 
 import { CommentStyled,StarContainerStyled } from "./Comment.styled";
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
 
 export function Comment(props){
     const scrollType = props.children.length>200 ? "auto" : "visible"
@@ -9,7 +11,14 @@ export function Comment(props){
             <CommentStyled>
             <div className="comment-container">
             <div className="comment-box">
-                <img src={props.src} alt='User avatar' />
+                {props.src  ? <img  src={props.src} 
+                              alt={`  ${props.name[0].toUpperCase()} ${props.name.indexOf(' ') !== -1 ? props.name.split(' ').pop()[0].toUpperCase(): ''}`}/>
+                            : <Stack>
+                                <Avatar sx={{ bgcolor:   '#3e85f3' }}>
+                                  {`${props.name[0].toUpperCase()} ${props.name.indexOf(' ') !== -1 ? props.name.split(' ').pop()[0].toUpperCase(): ''}`}
+                                </Avatar>
+                               </Stack>
+                  }
             </div>
             <div>
                 <h3>{props.name.trim()}</h3>
